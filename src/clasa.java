@@ -1,3 +1,6 @@
 public class clasa {
-    ceva ceva
+    public static void main(String args[])
+    {
+        System.out.println("Ceva");
+    }
 }
