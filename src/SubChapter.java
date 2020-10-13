@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 
-public class SubChapter extends Chapter {
+public class SubChapter{
+    public String name;
     public ArrayList<Paragraph> pharagraphs=new ArrayList<>();
     public ArrayList<Image> images=new ArrayList<>();
     public ArrayList<Table> tables=new ArrayList<>();
-    public int subchapterNR=0;
     SubChapter(String n) {
-        super(n);
-        subchapterNR++;
+        name=n;
     }
 
     public void createNewParagraph(String s) {
@@ -26,6 +25,7 @@ public class SubChapter extends Chapter {
     }
 
     public void print() {
+        System.out.println(name);
         for (Paragraph p: pharagraphs
              ) {System.out.println(p.name);}
         for (Image i: images
