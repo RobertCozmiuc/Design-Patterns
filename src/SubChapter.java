@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class SubChapter{
     public String name;
-    public ArrayList<Paragraph> pharagraphs=new ArrayList<>();
-    public ArrayList<Image> images=new ArrayList<>();
-    public ArrayList<Table> tables=new ArrayList<>();
+    ArrayList<Paragraph> pharagraphs=new ArrayList<>();
+    ArrayList<Image> images=new ArrayList<>();
+    ArrayList<Table> tables=new ArrayList<>();
     SubChapter(String n) {
         name=n;
     }
