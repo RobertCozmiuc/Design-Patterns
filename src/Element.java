@@ -5,5 +5,7 @@ public interface Element {
 
 
     void print() throws IOException;
+
+    void accept(Visitor visitor);
 }
 

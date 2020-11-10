@@ -10,7 +10,7 @@ public class ImageProxy implements Element{
     private String name;
     Image realImage=null;
 
-    ImageProxy(String name,String path){
+    ImageProxy(String name){
         this.name=name;
     }
 
@@ -20,5 +20,10 @@ public class ImageProxy implements Element{
         }
 
         realImage.print();
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
     }
 }
