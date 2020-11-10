@@ -1,3 +1,9 @@
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
 public class Lab1 {
     public static void main(String[] args) throws Exception {
         Section cap1 = new Section("Capitolul 1");
@@ -18,6 +24,11 @@ public class Lab1 {
         System.out.println();
         System.out.println("Printing with Alignment");
         System.out.println();
-        cap1.print();
+
+        //Image picture = new Image("resources/heart.png");
+        Image picture2 = new Image("no_no_he's_got_a_point.jpg");
+        //Image picture3 = new Image("resources/w3c.bmp");
+
+
     }
 }

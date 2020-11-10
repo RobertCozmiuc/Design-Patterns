@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Section implements Element {
@@ -23,8 +24,7 @@ public class Section implements Element {
         return content.get(index);
     }
 
-    public void print()
-    {
+    public void print() throws IOException {
         System.out.println(title);
         for(Element e:content)
         {
