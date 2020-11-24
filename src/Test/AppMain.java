@@ -24,5 +24,16 @@ public class AppMain {
         SpatiuStatistics status = new SpatiuStatistics();
         dir.accept(status);
         status.printStatistics();
+
+        //Director Fisiere
+        //_____parole.txt
+        //fructe.txt_____
+       // ___legume.txt___
+       // muzica.mp3
+      //  svgCeva.svg
+       // Director Statistics:
+       // *** Spatiu txt: 15 Kb
+       // *** Spatiu svg: 45 Kb
+      //  *** Spatiu mp3: 3 Mb
     }
 }
