@@ -12,6 +12,7 @@ public class Lab1 {
             Command cmd2 = new StatisticsCommand();
             cmd2.execute();
             DocumentManager.getBook().print();
+
         }
 
 
